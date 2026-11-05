@@ -1,10 +1,10 @@
-# GlowUp — Personal Skincare Companion Android Application 🌸
+# GlowUp — Personal Skincare Companion Android Application 
 
 GlowUp is a feature-complete, modern Android application developed in Kotlin to help users organize, monitor, and manage their daily skincare routines, products, and progress in one convenient place.
 
 ---
 
-## 🌟 Key Features & Requirements Matrix
+##  Key Features & Requirements Matrix
 
 | Requirement | Implementation Details |
 | :--- | :--- |
@@ -19,7 +19,7 @@ GlowUp is a feature-complete, modern Android application developed in Kotlin to 
 
 ---
 
-## 🚀 Architecture & Tech Stack
+## Architecture & Tech Stack
 
 - **Language**: Kotlin 100%
 - **Architecture**: Repository Pattern with MVVM / ViewBinding
@@ -31,7 +31,7 @@ GlowUp is a feature-complete, modern Android application developed in Kotlin to 
 
 ---
 
-## 📝 Release Notes (Final PoE Version)
+## Release Notes (Final PoE Version)
 
 ### Version 1.0.0 (Final PoE Release)
 - **Firebase Authentication & Google SSO**: Integrated Firebase Auth with encrypted password verification and Google Single Sign-On.
@@ -43,7 +43,7 @@ GlowUp is a feature-complete, modern Android application developed in Kotlin to 
 
 ---
 
-## 🤖 AI Tools Write-Up & Citation (PoE Assessment)
+## AI Tools Write-Up & Citation (PoE Assessment)
 
 During the development of the **GlowUp** application, AI development tools (Android Studio AI Agent & Large Language Models) were utilized to assist in code generation, debugging, and architectural refinement. 
 
