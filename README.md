@@ -53,4 +53,4 @@ During the development of the **GlowUp** application, AI development tools (Andr
 3. **Multi-language Translation Verification**: AI tools assisted in verifying accurate isiZulu and Sesotho string translations for skincare domain terminology (`values-zu` and `values-st`).
 4. **Code Quality & Testing**: AI tools helped generate comprehensive JUnit test cases (`GlowUpUnitTest.kt`) testing data models and repository logic.
 
-*Word count: ~140 words (Compliant with max 500-word limit).*
+https://drive.google.com/drive/folders/12_Ps5mGhgMGUWX_ryP_vBoAul4XhQoyQ?usp=sharing
