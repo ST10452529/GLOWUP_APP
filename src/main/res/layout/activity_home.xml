@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvGreeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to GlowUp ✨"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#D86A9B"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Track your skincare routine &amp; products"
+            android:textSize="16sp"
+            android:textColor="#777777"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="24dp" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="3dp"
+            app:cardBackgroundColor="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Today's Routine Progress"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#333333" />
+
+                    <TextView
+                        android:id="@+id/tvProgressText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0%"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#D86A9B" />
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/progressToday"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="14dp"
+                    android:progress="0"
+                    android:progressDrawable="@android:drawable/progress_horizontal"
+                    android:progressTint="#D86A9B" />
+
+                <TextView
+                    android:id="@+id/tvRoutineSummary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="☀️ Morning: 0/4 completed\n🌙 Evening: 0/3 completed"
+                    android:textSize="14sp"
+                    android:textColor="#666666"
+                    android:lineSpacingExtra="4dp" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quick Actions"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnRoutine"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="MY ROUTINE ✨"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#D86A9B"
+            app:cornerRadius="14dp"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnProducts"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="EXPLORE PRODUCTS 🧴"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#D86A9B"
+            app:cornerRadius="14dp"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnDiary"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="MY GLOW DIARY 📔"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#D86A9B"
+            app:cornerRadius="14dp"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="PROFILE &amp; SETTINGS 💗"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#D86A9B"
+            app:cornerRadius="14dp" />
+
+    </LinearLayout>
+
+</ScrollView>

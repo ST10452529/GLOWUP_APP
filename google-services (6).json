@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "269833812086",
+    "project_id": "glowupapp-b4cd9",
+    "storage_bucket": "glowupapp-b4cd9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269833812086:android:4e958c2607d586ea494757",
+        "android_client_info": {
+          "package_name": "com.company.GlowUpApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269833812086-3i57tj26j4q7or7eor0g8gq4s1d67m4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.GlowUpApp",
+            "certificate_hash": "5ad62342cb2f68b0bbb7d3149a3a264ee04d5103"
+          }
+        },
+        {
+          "client_id": "269833812086-gp7rqdvlhrkiut3gvd9tttmmiv3ah86o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn40eBevpP7IClV2gV7Yzk_tUEfs4wG5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269833812086-gp7rqdvlhrkiut3gvd9tttmmiv3ah86o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
