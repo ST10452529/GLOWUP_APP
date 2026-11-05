@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFF8FB">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore Products 🧴"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#D86A9B"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Search products (e.g. Cleanser, Nivea, Serum)"
+            app:boxStrokeColor="#D86A9B"
+            app:hintTextColor="#D86A9B">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etProductSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#222222"
+                android:textColorHint="#888888"
+                android:inputType="text"
+                android:imeOptions="actionSearch" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnSearchProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:text="Search"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#D86A9B"
+            app:cornerRadius="12dp"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:indeterminateTint="#D86A9B"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvEmptyState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type a product name or category above to explore skincare items from Open Beauty Facts."
+        android:textSize="15sp"
+        android:textColor="#777777"
+        android:textAlignment="center"
+        android:layout_margin="24dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvProducts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp" />
+
+</LinearLayout>

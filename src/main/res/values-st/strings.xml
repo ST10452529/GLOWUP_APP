@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">GlowUp</string>
+    <string name="welcome_glowup">O amogetswe ho GlowUp ✨</string>
+    <string name="track_skincare">Latedisa kemiso le dihlahiswa tsa hao tsa letlalo</string>
+    <string name="today_routine_progress">Tswelopele ya Letlalo la Kajeno</string>
+    <string name="quick_actions">Diketso tsa Kapele</string>
+    <string name="my_routine">KEMISO YA KA YA LETLALO ✨</string>
+    <string name="explore_products">BATLISISA DIHLAHISWA 🧴</string>
+    <string name="my_glow_diary">PUKA YA KA YA LETLALO 📔</string>
+    <string name="profile_settings">PROFAOLE LE DI-SETTINGS 💗</string>
+
+    <string name="morning_routine">☀️ KEMISO YA MESO</string>
+    <string name="evening_routine">🌙 KEMISO YA BOSIU</string>
+    <string name="add_step">+ Eketsa Mohato</string>
+    <string name="reset_progress">Sututsa Tswelopele ya Kajeno</string>
+
+    <string name="log_in">TSENA</string>
+    <string name="sign_up">Ingolise</string>
+    <string name="sign_in_google">Tsena ka Google 🌐</string>
+    <string name="continue_guest">Tswelapele o le Moeti</string>
+    <string name="forgot_password">O lebetse phasewete?</string>
+
+    <string name="dark_mode">Mokgwa wa Bosiu 🌙</string>
+    <string name="edit_profile">Metsi Profaole &amp; Bong 👤</string>
+    <string name="language_selection">Puo ya App / Language 🇿🇦</string>
+    <string name="send_notification">Rwala Kgopotso ya Letlalo 🔔</string>
+    <string name="log_out">TSWA 🚪</string>
+</resources>

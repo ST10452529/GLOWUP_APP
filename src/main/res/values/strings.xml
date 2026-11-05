@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">GlowUp</string>
+    <string name="welcome_glowup">Welcome to GlowUp ✨</string>
+    <string name="track_skincare">Track your skincare routine &amp; products</string>
+    <string name="today_routine_progress">Today\'s Routine Progress</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="my_routine">MY ROUTINE ✨</string>
+    <string name="explore_products">EXPLORE PRODUCTS 🧴</string>
+    <string name="my_glow_diary">MY GLOW DIARY 📔</string>
+    <string name="profile_settings">PROFILE &amp; SETTINGS 💗</string>
+
+    <string name="morning_routine">☀️ MORNING ROUTINE</string>
+    <string name="evening_routine">🌙 EVENING ROUTINE</string>
+    <string name="add_step">+ Add Step</string>
+    <string name="reset_progress">Reset Today\'s Checkbox Progress</string>
+
+    <string name="log_in">LOG IN</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in_google">Sign in with Google 🌐</string>
+    <string name="continue_guest">Continue as Guest</string>
+    <string name="forgot_password">Forgot password?</string>
+
+    <string name="dark_mode">Dark Mode / Night Theme 🌙</string>
+    <string name="edit_profile">Edit Profile &amp; Gender 👤</string>
+    <string name="language_selection">App Language / Ulimi 🇿🇦</string>
+    <string name="send_notification">Send Skincare Reminder 🔔</string>
+    <string name="log_out">LOG OUT 🚪</string>
+</resources>
