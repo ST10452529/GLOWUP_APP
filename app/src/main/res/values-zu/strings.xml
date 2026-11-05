@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">GlowUp</string>
+    <string name="welcome_glowup">Siyakwamukela ku-GlowUp ✨</string>
+    <string name="track_skincare">Landelela isimiso nemikhiqizo yakho yesikhumba</string>
+    <string name="today_routine_progress">Inqubo Yanamuhla Yesikhumba</string>
+    <string name="quick_actions">Izinyathelo Ezisheshayo</string>
+    <string name="my_routine">ISIMISO SIKASIKHUMBA ✨</string>
+    <string name="explore_products">HLOLA IMIKHIQIZO 🧴</string>
+    <string name="my_glow_diary">IDAYARI YESIKHUMBA 📔</string>
+    <string name="profile_settings">IPROFAYILI NEZINTO 💗</string>
+
+    <string name="morning_routine">☀️ ISIMISO SASEMAMUSO</string>
+    <string name="evening_routine">🌙 ISIMISO SASEBUSUKU</string>
+    <string name="add_step">+ Engeza Isinyathelo</string>
+    <string name="reset_progress">Sula Inqubo Yanamuhla</string>
+
+    <string name="log_in">NGENA</string>
+    <string name="sign_up">Bhalisa</string>
+    <string name="sign_in_google">Ngena nge-Google 🌐</string>
+    <string name="continue_guest">Qhubeka Njengoyisivakashi</string>
+    <string name="forgot_password">Ukhohlwe iphasiwedi?</string>
+
+    <string name="dark_mode">Imodi Yasebusuku 🌙</string>
+    <string name="edit_profile">Hlela Iprofayili 👤</string>
+    <string name="language_selection">Ulimi Lwe-App 🇿🇦</string>
+    <string name="send_notification">Thumela Isikhumbuzo 🔔</string>
+    <string name="log_out">PHUMA 🚪</string>
+</resources>

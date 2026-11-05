@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvDiaryDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="May 20, 2026"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#D86A9B" />
+
+            <TextView
+                android:id="@+id/tvDiaryTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✨ Glowing"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#444444"
+                android:background="#FFE4EE"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="4dp" />
+
+            <ImageButton
+                android:id="@+id/btnDeleteEntry"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@android:drawable/ic_menu_delete"
+                app:tint="#888888"
+                android:contentDescription="Delete Entry" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDiaryContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skin feeling super hydrated today after using the new hyalluronic acid serum!"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="4dp" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">GlowUp</string>
+    <string name="welcome_glowup">Welkom by GlowUp ✨</string>
+    <string name="track_skincare">Volg jou velsorgroetine en produkte</string>
+    <string name="today_routine_progress">Vandag se Roetine Vordering</string>
+    <string name="quick_actions">Vinnige Aksies</string>
+    <string name="my_routine">MY ROETINE ✨</string>
+    <string name="explore_products">VERKEN PRODUKTE 🧴</string>
+    <string name="my_glow_diary">MY VELSORG DAGBOEK 📔</string>
+    <string name="profile_settings">PROFIEL &amp; INSTELLINGS 💗</string>
+
+    <string name="morning_routine">☀️ OGGEND ROETINE</string>
+    <string name="evening_routine">🌙 AAND ROETINE</string>
+    <string name="add_step">+ Voeg Stap By</string>
+    <string name="reset_progress">Herstel Vandag se Vordering</string>
+
+    <string name="log_in">TEKEN IN</string>
+    <string name="sign_up">Registreer</string>
+    <string name="sign_in_google">Teken in met Google 🌐</string>
+    <string name="continue_guest">Gaan voort as Gas</string>
+    <string name="forgot_password">Wagwoord vergeet?</string>
+
+    <string name="dark_mode">Nagmaus / Donker Tema 🌙</string>
+    <string name="edit_profile">Wysig Profiel &amp; Geslag 👤</string>
+    <string name="language_selection">App Taal / Language 🇿🇦</string>
+    <string name="send_notification">Stuur Velsorg Herinnering 🔔</string>
+    <string name="log_out">TEKEN UIT 🚪</string>
+</resources>
